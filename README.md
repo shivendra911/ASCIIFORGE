@@ -32,7 +32,7 @@ Convert images to stunning ASCII art and create animated text art with style. Bu
 ### From Source (Development)
 
 ```bash
-git clone https://github.com/yourusername/asciiforge.git
+git clone https://github.com/shivendra911/asciiforge.git
 cd asciiforge
 pip install -e .
 ```
@@ -364,9 +364,9 @@ Original Image → ASCII Art
 
 ## Support
 
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/asciiforge/issues)
-- 📖 Docs: [Full Documentation](https://github.com/yourusername/asciiforge#readme)
+- 📧 Email: shivendrapratapsp3@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/shivendra911/asciiforge/issues)
+- 📖 Docs: [Full Documentation](https://github.com/shivendra911/asciiforge#readme)
 
 ## Roadmap
 

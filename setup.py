@@ -18,7 +18,7 @@ setup(
     name='asciiforge',
     version='1.0.0',
     author='Shivendra Pratap',
-    author_email='your.email@example.com',
+    author_email='shivendrapratapsp3@gmail.com',
     description='Professional ASCII art generation toolkit for images and text',
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',

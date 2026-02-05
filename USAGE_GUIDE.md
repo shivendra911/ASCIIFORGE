@@ -26,7 +26,7 @@ pip install asciiforge
 
 ### Development Installation
 ```bash
-git clone https://github.com/yourusername/asciiforge.git
+git clone https://github.com/shivendra911/asciiforge.git
 cd asciiforge
 pip install -e .
 ```
