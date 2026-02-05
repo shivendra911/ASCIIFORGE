@@ -17,12 +17,12 @@ def read_file(filename):
 setup(
     name='asciiforge',
     version='1.0.0',
-    author='ASCII Forge Team',
+    author='Shivendra Pratap',
     author_email='your.email@example.com',
     description='Professional ASCII art generation toolkit for images and text',
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/asciiforge',
+    url='https://github.com/shivendra911/asciiforge',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -63,8 +63,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     project_urls={
-        'Bug Reports': 'https://github.com/yourusername/asciiforge/issues',
-        'Source': 'https://github.com/yourusername/asciiforge',
-        'Documentation': 'https://github.com/yourusername/asciiforge#readme',
+        'Bug Reports': 'https://github.com/shivendra911/asciiforge/issues',
+        'Source': 'https://github.com/shivendra911/asciiforge',
+        'Documentation': 'https://github.com/shivendra911/asciiforge#readme',
     },
 )

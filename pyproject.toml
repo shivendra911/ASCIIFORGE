@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Professional ASCII art generation toolkit for images and text"
 readme = "README.md"
 authors = [
-    {name = "ASCII Forge Team", email = "your.email@example.com"}
+    {name = "Shivendra Pratap", email = "shivendrapratapsp3@gmail.com"}
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -43,10 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/asciiforge"
-Documentation = "https://github.com/yourusername/asciiforge#readme"
-Repository = "https://github.com/yourusername/asciiforge"
-"Bug Reports" = "https://github.com/yourusername/asciiforge/issues"
+Homepage = "https://github.com/shivendra911/asciiforge"
+Documentation = "https://github.com/shivendra911/asciiforge#readme"
+Repository = "https://github.com/shivendra911/asciiforge"
+"Bug Reports" = "https://github.com/shivendra911/asciiforge/issues"
 
 [project.scripts]
 asciiforge-image = "asciiforge.cli_image:main"
