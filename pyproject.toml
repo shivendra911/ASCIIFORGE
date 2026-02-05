@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asciiforge"
+version = "1.0.0"
+description = "Professional ASCII art generation toolkit for images and text"
+readme = "README.md"
+authors = [
+    {name = "ASCII Forge Team", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Artistic Software",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+keywords = ["ascii", "art", "generator", "image", "converter", "text", "animation", "terminal"]
+requires-python = ">=3.8"
+dependencies = [
+    "Pillow>=10.0.0",
+    "pyfiglet>=0.8.0",
+    "colorama>=0.4.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/asciiforge"
+Documentation = "https://github.com/yourusername/asciiforge#readme"
+Repository = "https://github.com/yourusername/asciiforge"
+"Bug Reports" = "https://github.com/yourusername/asciiforge/issues"
+
+[project.scripts]
+asciiforge-image = "asciiforge.cli_image:main"
+asciiforge-text = "asciiforge.cli_text:main"
+
+[tool.setuptools]
+packages = ["asciiforge"]
+
+[tool.black]
+line-length = 88
+target-version = ["py38", "py39", "py310", "py311", "py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
